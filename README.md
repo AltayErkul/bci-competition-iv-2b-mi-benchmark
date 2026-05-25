@@ -26,7 +26,16 @@ docs/Classification.md
 
 The benchmark script trains on sessions `01T` and `02T`, tests on session
 `03T`, and writes:
+## Benchmark Protocol
 
+- Dataset: BCI Competition IV Dataset 2b
+- Subjects: B01–B09
+- Channels: C3, Cz, C4
+- Train sessions: 01T, 02T
+- Test session: 03T
+- Task 1: left-hand vs right-hand motor imagery
+- Task 2: pseudo REST vs ACTIVE
+- Metrics: balanced accuracy, ROC-AUC, confusion matrix, class error rates
 - raw benchmark CSV files,
 - method summary tables,
 - best-method-by-subject tables,
