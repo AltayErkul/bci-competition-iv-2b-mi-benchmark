@@ -1,0 +1,8 @@
+mne
+numpy
+scikit-learn
+scipy
+matplotlib
+pandas
+pyriemann
+

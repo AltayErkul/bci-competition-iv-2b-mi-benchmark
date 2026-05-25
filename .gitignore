@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Raw BCI Competition data should be downloaded separately.
+BCICIV_2b_gdf/*.gdf
+
+# Local scratch output.
+*.log
+
